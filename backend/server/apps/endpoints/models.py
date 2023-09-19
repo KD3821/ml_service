@@ -104,3 +104,31 @@ class MLRequest(models.Model):
 
     def __str__(self):
         return f'{self.created_at} [{self.parent_mlalgorithm}]'
+
+
+class ABTest(models.Model):
+    """
+    The ABTest will keep information about A/B tests.
+    Attributes:
+    title: The title of test.
+    created_by: The name of creator.
+    created_at: The date of test creation.
+    ended_at: The date of test stop.
+    summary: The description with test summary, created at test stop.
+    parent_mlalgorithm_1: The reference to the first corresponding MLAlgorithm.
+    parent_mlalgorithm_2: The reference to the second corresponding MLAlgorithm.
+    """
+    title = models.CharField(max_length=10000, verbose_name='Название теста')
+    created_by = models.CharField(max_length=128, verbose_name='Создан')
+    created_at = models.DateTimeField(default=timezone.now, blank=True, verbose_name='Дата начала')
+    ended_at = models.DateTimeField(blank=True, null=True, verbose_name='Дата завершения')
+    summary = models.CharField(max_length=10000, blank=True, null=True, verbose_name='Краткое содержание')
+    parent_mlalgorithm_1 = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name="parent_mlalgorithm_1")
+    parent_mlalgorithm_2 = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name="parent_mlalgorithm_2")
+
+    class Meta:
+        verbose_name = 'АБ-тест'
+        verbose_name_plural = 'АБ-тесты'
+
+    def __str__(self):
+        return f'{self.title} [{self.created_at}]'
