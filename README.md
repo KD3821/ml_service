@@ -1,5 +1,5 @@
 # ml_service
-![Alt text](https://raw.github.com/KD3821/ml_service/main/header.png)
+![Alt text](/header.png)
 
 <h1 align="center">Deploy Machine Learning with Django REST framework</h1>
 <p align="center">
