@@ -4,7 +4,7 @@
 <h1 align="center">Deploy Machine Learning with Django REST framework</h1>
 <p align="center">
 
-<img src="https://img.shields.io/badge/usedBy-KD3821-lightblue" >
+<img src="https://img.shields.io/badge/implementedBy-KD3821-lightblue" >
 
 <p align="center">Tutorial from <a href="https://www.deploymachinelearning.com/">ML with Django</a></b><br>
 
@@ -26,5 +26,5 @@ supports monitoring and algorithm diagnostic (support A/B tests),</li>
 is scalable (deployed with containers),</li>
 <li>
 has a user interface."</li></ul><br>
-<br>
+Python 3.10, Django 4.2.5, DRF 3.14.0 [Tutorial part with docker containers is not implemented.]<br>
 <b>For more details please visit: <a href="https://mljar.com/">MLJAR</a></b>
