@@ -1,5 +1,6 @@
 # ml_service
-![Alt text](/header.png?raw=true "Deploy Machine Learning with Django")
+![Alt text](https://raw.github.com/KD3821/ml_service/main/header.png)
+
 <h1 align="center">Deploy Machine Learning with Django REST framework</h1>
 <p align="center">
 
@@ -22,7 +23,7 @@ supports fast deployments and continuous integration (tests for both: server and
 <li>
 supports monitoring and algorithm diagnostic (support A/B tests),</li>
 <li>
-is scalable (deployed with containers), --[ not implemented in this version ]--</li>
+is scalable (deployed with containers),</li>
 <li>
 has a user interface."</li></ul><br>
 <br>
