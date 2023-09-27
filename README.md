@@ -1,9 +1,9 @@
 # ml_service
-![Alt text](/ml_service/header.png?raw=true "Deploy Machine Learning with Django")
+![Alt text](/header.png?raw=true "Deploy Machine Learning with Django")
 <h1 align="center">Deploy Machine Learning with Django REST framework</h1>
 <p align="center">
 
-<img src="https://img.shields.io/badge/madeBy-KD3821-lightblue" >
+<img src="https://img.shields.io/badge/usedBy-KD3821-lightblue" >
 
 <p align="center">Tutorial from <a href="https://www.deploymachinelearning.com/">ML with Django</a></b><br>
 
@@ -22,7 +22,7 @@ supports fast deployments and continuous integration (tests for both: server and
 <li>
 supports monitoring and algorithm diagnostic (support A/B tests),</li>
 <li>
-is scalable (deployed with containers),"</li>
+is scalable (deployed with containers), --[ not implemented in this version ]--</li>
 <li>
 has a user interface."</li></ul><br>
 <br>
