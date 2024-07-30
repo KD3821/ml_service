@@ -44,7 +44,8 @@ try:
         algorithm_version="0.0.1",
         owner="Denis",
         algorithm_description="Extra Trees with simple pre- and post-processing",
-        algorithm_code=inspect.getsource(RandomForestClassifier))
+        algorithm_code=inspect.getsource(ExtraTreesClassifier)
+    )
 
 except Exception as e:
     print("Exception while loading the algorithms to the registry, ", str(e))

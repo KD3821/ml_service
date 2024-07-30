@@ -24,7 +24,6 @@ class MLAlgorithmSerializer(serializers.ModelSerializer):
             "id",
             "name",
             "description",
-            "code",
             "version",
             "owner",
             "created_at",
